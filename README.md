@@ -61,7 +61,7 @@ Although it is bad form to reuse the same shout over and over for a single **Thu
 
 ## Brainfuck Map
 
-Unlike **brainfuck**, **DovaKel** is based off dragon objects so the "<" and ">" commands are satisfied by the ability to create spaces in memory to hold numbers via the "Wahl" command. For each of the following mappings assume that **Alduin** in the **DovaKel** command call has been initialized and is analog to the cell the pointer is pointing to in brainfuck.
+Unlike **brainfuck**, **DovaKel** is based off dragon objects so the "<" and ">" commands are satisfied by the ability to create spaces in memory to hold numbers via the "Wahl" command. For each of the following mappings assume that **Alduin** in the **DovaKel** command call has been initialized and is analog to the cell the pointer is pointing to in **brainfuck**.
 
 |BF Command|DovaKel Analog (Latin) |
 |--|--|

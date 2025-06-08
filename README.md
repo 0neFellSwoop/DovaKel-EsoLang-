@@ -5,7 +5,7 @@
 
 ## Alphabet
 
-DovaKel uses the dragon alphabet runic symbols. Phonetic equivalents in the roman alphabet can be found below:
+**DovaKel** uses the dragon alphabet runic symbols. Phonetic equivalents in the roman alphabet can be found below:
 ![Alphabet](alphabet.jpg)
 
 ## Commands

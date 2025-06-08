@@ -15,16 +15,16 @@ DovaKel uses the dragon alphabet runic symbols. Phonetic equivalents in the roma
 |Runic	|Latin	|Description
 |----------------|-------------------|-----------|
 |![Wahl](wahl.png)	|Wahl [Name(s)]|Defines a dragon (or dragons) used as a variable later in the program. Names are separated by spaces.
-|![Wahl](wahl.png)	|Thu’um [Name] inhus [Sequence of shouts]|This command sets the given dragon's number based on the number and sequence of shouts.*
-|![Wahl](wahl.png)	|Hokoron [Name]|Set the dragon's number to its opposite.
-|![Wahl](wahl.png)	|Nil [Name]|Set the dragon's power level to zero.
-|![Wahl](wahl.png)	|Ofaal [Name]|Read an input from STDIN and store it in the dragon as a number or ASCII value if it is a character.
-|![Wahl](wahl.png)	|Pel [Name]| Print the ASCII character  that corresponds to the value held by the dragon to STDOUT.
-|![Wahl](wahl.png)|Bex [Name]|Print the number held by the dragon to STDOUT.
-|![Wahl](wahl.png)|[Name] Ronit [Expression or Name]|Sets the value stored in the dragon on the right side to the result of the left side.
-|![Wahl](wahl.png)	|[Name] Aav [Name]|Return the sum of the numbers of two dragons.
-|![Wahl](wahl.png)	|Tinvaak [Name]| Jump past the next Nahlot command with the same dragon if the dragon holds zero.
-|![Wahl](wahl.png)|Nahlot [Name]    |   Return to the last Tinvaak command for the dragon.     
+|![Thu'um](thu'um.png)	|Thu’um [Name] inhus [Sequence of shouts]|This command sets the given dragon's number based on the number and sequence of shouts.*
+|![Hokoron](hokoron.png)	|Hokoron [Name]|Set the dragon's number to its opposite.
+|![Nil](nil.png)	|Nil [Name]|Set the dragon's power level to zero.
+|![Ofaal](ofaal.png)	|Ofaal [Name]|Read an input from STDIN and store it in the dragon as a number or ASCII value if it is a character.
+|![Pel](pel.png)	|Pel [Name]| Print the ASCII character  that corresponds to the value held by the dragon to STDOUT.
+|![Bex](bex.png)|Bex [Name]|Print the number held by the dragon to STDOUT.
+|![Ronit](ronit.png)|[Name] Ronit [Expression or Name]|Sets the value stored in the dragon on the right side to the result of the left side.
+|![Aav](aav.png)	|[Name] Aav [Name]|Return the sum of the numbers of two dragons.
+|![Tinvaak](tinvaak.png)	|Tinvaak [Name]| Jump past the next Nahlot command with the same dragon if the dragon holds zero.
+|![Nahlot](nahlot.png)|Nahlot [Name]    |   Return to the last Tinvaak command for the dragon.     
 
 ## Shouts and Words of Power (Number System)*
 Dragons in Tamriel don't use numbers so each dragon has a number that can be thought of as a might magnitude. The number associated with the dragon is calculated by the number of words of power the dragon knows in each shout. Each shout with a single word known adds 1 to the assigned number. Each shout with two words known adds 10 to the assigned number. Each shout with all three words known adds 100 to the assigned number. 
